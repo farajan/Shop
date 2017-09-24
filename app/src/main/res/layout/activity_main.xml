@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.oem.shop.MainActivity">
+
+    <GridLayout
+        android:layout_width="294dp"
+        android:layout_height="480dp"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="29dp">
+
+        <EditText
+            android:id="@+id/data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+        <Button
+            android:id="@+id/sendData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:layout_weight="0.08"
+            android:text="Send data to firebase"
+            tools:layout_editor_absoluteX="-10dp"
+            tools:layout_editor_absoluteY="-229dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/printData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:text="Print data from firebase" />
+
+        <EditText
+            android:id="@+id/print"
+            android:layout_width="match_parent"
+            android:layout_height="276dp"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:ems="10"
+            android:inputType="textMultiLine" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="527dp" />
+
+</android.support.constraint.ConstraintLayout>
