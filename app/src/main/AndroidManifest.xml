@@ -40,12 +40,8 @@
             android:label="@string/title_activity_login" />
         <activity
             android:name=".RegistrationActivity"
-            android:label="@string/title_activity_registration"></activity>
-
-        <service
-            android:name=".UserService"
-            android:enabled="true"
-            android:exported="true"></service>
+            android:label="@string/title_activity_registration" />
+        <activity android:name=".ListActivity"></activity>
     </application>
 
 </manifest>

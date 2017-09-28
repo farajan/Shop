@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:background="?attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/simpleItemAction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reserved buy: jan.fara10@gmail.com"
+        android:layout_alignBaseline="@+id/simpleItemQuantity"
+        android:layout_alignBottom="@+id/simpleItemQuantity"
+        android:layout_toEndOf="@+id/simpleItemQuantity"
+        android:layout_marginStart="13dp" />
+
+    <TextView
+        android:id="@+id/simpleItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginStart="30dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/simpleItemQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_alignBaseline="@+id/simpleItemName"
+        android:layout_alignBottom="@+id/simpleItemName"
+        android:layout_toEndOf="@+id/simpleItemName"
+        android:layout_marginStart="18dp" />
+</RelativeLayout>
