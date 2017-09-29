@@ -2,21 +2,21 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:weightSum="1"
+    android:layout_height="100dp"
+    android:background="?attr/selectableItemBackground"
     android:clickable="true"
-    android:background="?attr/selectableItemBackground">
+    android:orientation="vertical"
+    android:weightSum="1">
 
     <ImageView
         android:id="@+id/icon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="20dp"
         android:layout_marginTop="12dp"
-        app:srcCompat="@mipmap/ic_launcher" />
+        app:srcCompat="@drawable/list_default_logo" />
 
     <TextView
         android:id="@+id/simpleListName"
@@ -30,12 +30,11 @@
         android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/items"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/simpleListNode"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
         android:layout_alignStart="@+id/simpleListName"
         android:layout_below="@+id/simpleListName"
-        android:layout_marginTop="9dp"
         android:text="Tak trosku nejhaka debilno poznamka nebo popisek aby to vzpadalo aspon trosku cool. no co, uz nevim co dal psat, tak asi konec" />
 
 </RelativeLayout>

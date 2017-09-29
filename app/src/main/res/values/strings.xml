@@ -17,7 +17,10 @@
     <string name="title_activity_login">Sign in</string>
     <string name="title_activity_registration">Sig up </string>
     <string name="title_activity_lists">Lists</string>
+    <string name="title_activity_list">List</string>
     <string name="title_activity_groups">Groups</string>
     <string name="title_activity_friends">Friends</string>
     <string name="title_activity_my_list">My list</string>
+    <string name="title_activity_add_new_list">Create new list</string>
+    <string name="title_activity_add_new_item">Create new item</string>
 </resources>

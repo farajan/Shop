@@ -6,6 +6,9 @@
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
 
     <application
         android:allowBackup="true"
@@ -41,7 +44,14 @@
         <activity
             android:name=".RegistrationActivity"
             android:label="@string/title_activity_registration" />
-        <activity android:name=".ListActivity"></activity>
+        <activity
+            android:name=".ListActivity"
+            android:label="@string/title_activity_lists" />
+        <activity
+            android:name=".AddListActivity"
+            android:label="@string/title_activity_add_new_list" />
+        <activity android:name=".AddItemActivity"
+            android:label="@string/title_activity_add_new_item" ></activity>
     </application>
 
 </manifest>
